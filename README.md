@@ -1,40 +1,31 @@
 
 
-# GA Overflow - Readme
+# Project Three - GA Overflow
 
-We created a fullstack application with CRUD operations for General Assembly students, graduates and tutors to share and exchange advice about the course and coding.  
+A group project over two weeks to create a fullstack application with CRUD operations for General Assembly students, graduates and tutors to share and exchange advice about the course and coding.  
 
+[Click for GA Overflow Site](https://ga-overflow.netlify.app/)
 
-## Description
+<img width="1429" alt="Screenshot 2022-01-16 at 17 20 48" src="https://user-images.githubusercontent.com/85836801/149670663-8c66c799-fa4e-4e57-ba79-8d1c4e380c58.png">
 
-The website was designed to provide a space for General Assembly students and alumni to share advice about coding and careers and to ask others working on the course for help. The site uses a blog style format for logged in users to publish posts and comment on posts from others. 
+## Table of contents
 
-The application has the following features: 
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Help](#help)
+- [Process](#process)
+- [Wireframe](#wireframe)
+- [Challenges](#challenges)
+- [Wins](#wins)
+- [Future](#future)
 
-* Write and publish blog with title, summary, text, images
-* Display blogs in order of the most recently published
-* Add comments to blogs
-* Edit and delete blog posts
-* Register a new user and login and logout
-* Search function for blog titles, summaries and text
+## Technologies
 
-We developed the fullstack application using MERN stack, with the following technologies: 
+Project is created with:
 
-* MongoDB - document database for holding the blog post and user data
-* Express(.js) - web application framework for Node.js 
-* React(.js) - client-side JavaScript framework
-* Node(.js) - JavaScript web server
+-
 
-![Image of MERN stack](https://webimages.mongodb.com/_com_assets/cms/mern-stack-b9q1kbudz0.png?auto=format%2Ccompress)
-
-### App images
-
-Homepage 
-
-![Homescreen](https://gcdn.pbrd.co/images/Mn6vSeePTD49.png?o=1)
-
-
-## Getting Started
+## Setup
 
 You will need to check you have [node.js](https://www.codecademy.com/articles/react-setup-i) and [Express](https://expressjs.com/en/starter/installing.html) installed before the application will run. Following the linked installation guides.
 
@@ -98,7 +89,6 @@ Once the data has been seeded, you can run the server:
 yarn start
 ```
 
-
 #### Client
 
 Express server runs on port 8001. 
@@ -116,6 +106,41 @@ yarn start:client
 ```
 command to run if program contains helper info
 ```
+
+
+## Process
+
+The website was designed to provide a space for General Assembly students and alumni to share advice about coding and careers and to ask others working on the course for help. The site uses a blog style format for logged in users to publish posts and comment on posts from others. 
+
+The application has the following features: 
+
+* Write and publish blog with title, summary, text, images
+* Display blogs in order of the most recently published
+* Add comments to blogs
+* Edit and delete blog posts
+* Register a new user and login and logout
+* Search function for blog titles, summaries and text
+
+We developed the fullstack application using MERN stack, with the following technologies: 
+
+* MongoDB - document database for holding the blog post and user data
+* Express(.js) - web application framework for Node.js 
+* React(.js) - client-side JavaScript framework
+* Node(.js) - JavaScript web server
+
+![Image of MERN stack](https://webimages.mongodb.com/_com_assets/cms/mern-stack-b9q1kbudz0.png?auto=format%2Ccompress)
+
+### App images
+
+Homepage 
+
+![Homescreen](https://gcdn.pbrd.co/images/Mn6vSeePTD49.png?o=1)
+
+## Challanges
+
+## Wins
+
+## Future
 
 
 ## Authors
