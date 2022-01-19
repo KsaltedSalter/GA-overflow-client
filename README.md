@@ -24,13 +24,13 @@ A group project of three, over two weeks to create a full-stack application with
 
 Project is created with:
 
-###Backend:
+### Backend:
 - Node.js
 - MongoDb
 - Mongoose
 - Postman
 
-###Frontend:
+### Frontend:
 - HTML
 - CSS
 - SASS
@@ -41,7 +41,7 @@ Project is created with:
 - FontAwesome
 - React Icons
 
-###Design:
+### Design:
 - Figma
 - Pulp Fipsum
 - Hipster Ipsum
@@ -54,9 +54,11 @@ You will need to check you have [node.js](https://www.codecademy.com/articles/re
 
 There are two GitHub repos for the application: 
 
-###Frontend: [https://github.com/neilmurcho13/GA-overflow-client](https://github.com/neilmurcho13/GA-overflow-client)
+### Frontend: 
+[https://github.com/neilmurcho13/GA-overflow-client](https://github.com/neilmurcho13/GA-overflow-client)
 
-###Backend: [https://github.com/neilmurcho13/GA-overflow-backend](https://github.com/neilmurcho13/GA-overflow-backend)
+### Backend: 
+[https://github.com/neilmurcho13/GA-overflow-backend](https://github.com/neilmurcho13/GA-overflow-backend)
 
 ## Dependencies
 
@@ -65,7 +67,7 @@ The following dependencies will be installed automatically using the following c
 npm install
 ``` 
 
-#### Frontend: 
+### Frontend: 
 * Bcrypt
 * Cors
 * Dotenv
@@ -76,29 +78,29 @@ npm install
 * Mongoose-unique-validator
 * Babel-eslint 
 
-#### Backend: 
-   * babelcore 
-   * babel/plugin-transform-runtime
-   * babel/preset-env
-   * babel/preset-react 
-   * babel-loader 
-   * css-loader
-   * dotenv-webpack 
-   * file-loader 
-   * html-webpack-plugin
-   * sass
-   * sass-loader
-   * style-loader
-   * webpack
-   * webpack-cli
-   * webpack-dev-server
+### Backend: 
+* babelcore 
+* babel/plugin-transform-runtime
+* babel/preset-env
+* babel/preset-react 
+* babel-loader 
+* css-loader
+* dotenv-webpack 
+* file-loader 
+* html-webpack-plugin
+* sass
+* sass-loader
+* style-loader
+* webpack
+* webpack-cli
+* webpack-dev-server
 
-### Executing program
+## Executing program
 
 Both the client and the database need to be running at the same time. 
 The backend runs on port 3000.  
 
-#### Back-end:
+### Back-end:
 
 First seed the data if you are running outside of MongoDB:
 ```
@@ -110,7 +112,7 @@ Once the data has been seeded, you can run the server:
 yarn start
 ```
 
-#### Front-end:
+### Front-end:
 
 Express server runs on port 8001. 
 
